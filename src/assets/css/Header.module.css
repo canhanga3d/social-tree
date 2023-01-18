@@ -1,0 +1,21 @@
+.header{
+  margin-top: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 1.375rem;
+}
+.header img{
+  width: 200px;
+  height: 200px;
+  border: 1px solid var(--purple);
+  border-radius: 50%;
+  padding: 5px;
+}
+.header h1{
+  color: var(--purple);
+  font:300 1rem Poppins, 'sans-serif';
+  line-height: 1.5;
+}
+
